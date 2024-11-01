@@ -32,43 +32,43 @@
         </Button>
       </div>
       <div class="flex-1">
-        <nav class="grid items-start px-1 text-md font-medium">
+        <nav class="grid items-start px-1 gap-1.5 text-md font-medium">
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
           >
             <House class="h-5 w-5" />
             Dashboard
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
           >
             <ShoppingCart class="h-5 w-5" />
             Orders
             <Badge
-              class="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
+              class="ml-auto flex h-5 w-5 shrink-0 items-center justify-center rounded-full"
             >
               6
             </Badge>
           </a>
           <a
             href="##"
-            class="bg-muted text-primary hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
+            class="bg-muted text-primary hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
           >
             <Package class="h-5 w-5" />
             Products
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
           >
             <Users class="h-5 w-5" />
             Customers
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
           >
             <ChartLine class="h-5 w-5" />
             Analytics
@@ -92,7 +92,7 @@
           </Button>
         </Sheet.Trigger>
         <Sheet.Content side="left" class="flex flex-col border-none">
-          <nav class="grid gap-2 text-lg font-medium">
+          <nav class="grid gap-1.5 text-lg font-medium">
             <a href="##" class="flex items-center gap-2 text-lg font-semibold">
               <Package2 class="h-6 w-6 mt-[-6px] ml-[-6px]" />
               <span class="sr-only">Acme Inc</span>
@@ -106,7 +106,7 @@
             </a>
             <a
               href="##"
-              class="bg-muted text-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-1.5"
+              class="bg-muted text-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-2"
             >
               <ShoppingCart class="h-5 w-5" />
               Orders
@@ -116,21 +116,21 @@
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
             >
               <Package class="h-5 w-5" />
               Products
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
             >
               <Users class="h-5 w-5" />
               Customers
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
             >
               <ChartLine class="h-5 w-5" />
               Analytics
