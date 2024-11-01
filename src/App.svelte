@@ -92,7 +92,7 @@
           </Button>
         </Sheet.Trigger>
         <Sheet.Content side="left" class="flex flex-col border-none">
-          <nav class="grid gap-1.5 text-lg font-medium">
+          <nav class="grid gap-2 text-lg font-medium">
             <a href="##" class="flex items-center gap-2 text-lg font-semibold">
               <Package2 class="h-6 w-6 mt-[-6px] ml-[-6px]" />
               <span class="sr-only">Acme Inc</span>
