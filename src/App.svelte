@@ -21,9 +21,9 @@
 <div class="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
   <div class="bg-muted/40 hidden border-r md:block">
     <div class="flex h-full flex-col gap-2">
-      <div class="flex h-14 items-center border-b px-4 md:h-12 md:gap-1.5 md:px-2">
+      <div class="flex items-center h-12 gap-2 px-2">
         <a href="/" class="flex items-center gap-2 font-semibold">
-          <Package2 class="h-6 w-6" />
+          <Package2 class="ml-1" />
           <span class="sr-only">Acme Inc</span>
         </a>
         <Button size="icon" variant="ghost" class="ml-auto">
@@ -32,19 +32,19 @@
         </Button>
       </div>
       <div class="flex-1">
-        <nav class="grid items-start px-2 text-sm font-medium lg:px-4">
+        <nav class="grid items-start px-1 text-md font-medium">
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-3 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
           >
-            <House class="h-4 w-4" />
+            <House class="h-5 w-5" />
             Dashboard
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-3 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
           >
-            <ShoppingCart class="h-4 w-4" />
+            <ShoppingCart class="h-5 w-5" />
             Orders
             <Badge
               class="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
@@ -54,44 +54,31 @@
           </a>
           <a
             href="##"
-            class="bg-muted text-primary hover:text-primary flex items-center gap-3 rounded-lg px-3 py-2 transition-all"
+            class="bg-muted text-primary hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
           >
-            <Package class="h-4 w-4" />
+            <Package class="h-5 w-5" />
             Products
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-3 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
           >
-            <Users class="h-4 w-4" />
+            <Users class="h-5 w-5" />
             Customers
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-3 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3 rounded-lg px-2.5 py-2 transition-all"
           >
-            <ChartLine class="h-4 w-4" />
+            <ChartLine class="h-5 w-5" />
             Analytics
           </a>
         </nav>
       </div>
-      <div class="mt-auto p-4">
-        <Card.Root>
-          <Card.Header class="p-2 pt-0 md:p-4">
-            <Card.Title>Upgrade to Pro</Card.Title>
-            <Card.Description>
-              Unlock all features and get unlimited access to our support team.
-            </Card.Description>
-          </Card.Header>
-          <Card.Content class="p-2 pt-0 md:p-4 md:pt-0">
-            <Button size="sm" class="w-full">Upgrade</Button>
-          </Card.Content>
-        </Card.Root>
-      </div>
     </div>
   </div>
   <div class="flex flex-col">
-    <header class="bg-background flex h-14 items-center gap-2 border-b px-2 md:h-12 md:gap-1.5 md:px-2">
+    <header class="bg-background flex h-14 items-center gap-2 shadow shadow-neutral-200 px-2 md:h-12 md:gap-1.5 md:px-2">
       <Sheet.Root>
         <Sheet.Trigger asChild let:builder>
           <Button
@@ -104,48 +91,46 @@
             <span class="sr-only">Toggle navigation menu</span>
           </Button>
         </Sheet.Trigger>
-        <Sheet.Content side="left" class="flex flex-col">
+        <Sheet.Content side="left" class="flex flex-col border-none">
           <nav class="grid gap-1.5 text-lg font-medium">
             <a href="##" class="flex items-center gap-2 text-lg font-semibold">
-              <Package2 class="h-6 w-6" />
+              <Package2 class="h-6 w-6 mt-[-6px] ml-[-6px]" />
               <span class="sr-only">Acme Inc</span>
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-0.65rem] flex items-center gap-4 rounded- px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded- px-3 py-2"
             >
               <House class="h-5 w-5" />
               Dashboard
             </a>
             <a
               href="##"
-              class="bg-muted text-foreground hover:text-foreground mx-[-0.65rem] flex items-center gap-4 rounded-lg px-3 py-2"
+              class="bg-muted text-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-1.5"
             >
               <ShoppingCart class="h-5 w-5" />
               Orders
               <Badge
-                class="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
-              >
-                6
-              </Badge>
+                class="ml-auto flex h-5 w-5 shrink-0 items-center justify-center rounded-full"
+              >6</Badge>
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
             >
               <Package class="h-5 w-5" />
               Products
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
             >
               <Users class="h-5 w-5" />
               Customers
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
             >
               <ChartLine class="h-5 w-5" />
               Analytics
@@ -159,7 +144,7 @@
       <div class="w-full flex-1">
         <form>
           <div class="relative">
-            <Search class="text-muted-foreground absolute left-2 top-2 md:top-1.5 h-5 w-5" />
+            <Search class="text-muted-foreground absolute left-2 top-2 h-5 w-5" />
             <Input
               type="search"
               placeholder="Search products..."
