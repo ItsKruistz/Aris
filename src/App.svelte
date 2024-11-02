@@ -23,7 +23,7 @@
     <div class="flex h-full flex-col gap-2">
       <div class="flex items-center h-12 gap-2 px-2">
         <a href="/" class="flex items-center gap-2 font-semibold">
-          <Package2 class="ml-1" />
+          <Package2 class="ml-1.5" />
           <span class="sr-only">Acme Inc</span>
         </a>
         <Button size="icon" variant="ghost" class="ml-auto">
@@ -32,7 +32,7 @@
         </Button>
       </div>
       <div class="flex-1">
-        <nav class="grid items-start px-1 gap-1.5 text-md font-medium">
+        <nav class="grid items-start px-1.5 gap-1.5 text-md font-medium">
           <a
             href="##"
             class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
@@ -42,7 +42,7 @@
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2 py-2 transition-all"
           >
             <ShoppingCart class="h-5 w-5" />
             Orders
@@ -92,21 +92,21 @@
           </Button>
         </Sheet.Trigger>
         <Sheet.Content side="left" class="flex flex-col border-none">
-          <nav class="grid gap-1.5 text-lg font-medium">
+          <nav class="grid gap-1 text-lg font-medium">
             <a href="##" class="flex items-center gap-2 text-lg font-semibold">
               <Package2 class="h-6 w-6 mt-[-6px] ml-[-6px]" />
               <span class="sr-only">Acme Inc</span>
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded- px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-1.5"
             >
               <House class="h-5 w-5" />
               Dashboard
             </a>
             <a
               href="##"
-              class="bg-muted text-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-2"
+              class="bg-muted text-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-1.5"
             >
               <ShoppingCart class="h-5 w-5" />
               Orders
@@ -116,21 +116,21 @@
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
             >
               <Package class="h-5 w-5" />
               Products
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
             >
               <Users class="h-5 w-5" />
               Customers
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
             >
               <ChartLine class="h-5 w-5" />
               Analytics
