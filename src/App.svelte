@@ -19,7 +19,7 @@
 </script>
 
 <div class="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
-  <div class="bg-muted/40 hidden border-r md:block">
+  <div class="hidden border-r md:block">
     <div class="flex h-full flex-col gap-2">
       <div class="flex items-center h-12 gap-2 px-2">
         <a href="/" class="flex items-center gap-2 font-semibold">
@@ -32,7 +32,7 @@
         </Button>
       </div>
       <div class="flex-1">
-        <nav class="grid items-start px-1.5 gap-1.5 text-md font-medium">
+        <nav class="grid items-start px-1.5 gap-1.5 text-lg font-semibold">
           <a
             href="##"
             class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
@@ -92,7 +92,7 @@
           </Button>
         </Sheet.Trigger>
         <Sheet.Content side="left" class="flex flex-col border-none">
-          <nav class="grid gap-1 text-md font-medium">
+          <nav class="grid gap-1 text-lg font-semibokd">
             <a href="##" class="flex items-center gap-3 font-semibold mb-2">
               <Package2 class="h-6 w-6 mt-[-6px] ml-[-6px]" />
               <span class="sr-only">Acme Inc</span>
