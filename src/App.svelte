@@ -92,21 +92,21 @@
           </Button>
         </Sheet.Trigger>
         <Sheet.Content side="left" class="flex flex-col border-none">
-          <nav class="grid gap-1 text-lg font-medium">
-            <a href="##" class="flex items-center gap-2 text-lg font-semibold">
+          <nav class="grid gap-1 text-md font-medium">
+            <a href="##" class="flex items-center gap-3 font-semibold mb-2">
               <Package2 class="h-6 w-6 mt-[-6px] ml-[-6px]" />
               <span class="sr-only">Acme Inc</span>
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-1.5"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-2"
             >
               <House class="h-5 w-5" />
               Dashboard
             </a>
             <a
               href="##"
-              class="bg-muted text-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-1.5"
+              class="bg-muted text-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-lg px-3 py-2"
             >
               <ShoppingCart class="h-5 w-5" />
               Orders
@@ -116,21 +116,21 @@
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
             >
               <Package class="h-5 w-5" />
               Products
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
             >
               <Users class="h-5 w-5" />
               Customers
             </a>
             <a
               href="##"
-              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-1.5"
+              class="text-muted-foreground hover:text-foreground mx-[-1rem] flex items-center gap-4 rounded-xl px-3 py-2"
             >
               <ChartLine class="h-5 w-5" />
               Analytics
