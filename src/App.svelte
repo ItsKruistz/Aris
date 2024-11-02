@@ -42,7 +42,7 @@
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
           >
             <ShoppingCart class="h-5 w-5" />
             Orders
@@ -54,21 +54,21 @@
           </a>
           <a
             href="##"
-            class="bg-muted text-primary hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
+            class="bg-muted text-primary hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
           >
             <Package class="h-5 w-5" />
             Products
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
           >
             <Users class="h-5 w-5" />
             Customers
           </a>
           <a
             href="##"
-            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-1.5 transition-all"
+            class="text-muted-foreground hover:text-primary flex items-center gap-3.5 rounded-lg px-2.5 py-2 transition-all"
           >
             <ChartLine class="h-5 w-5" />
             Analytics
